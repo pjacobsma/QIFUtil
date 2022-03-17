@@ -27,7 +27,6 @@ import org.bluewindows.qif.QIFParser;
 public class QIFParserTest extends TestCase{
 	
 	public void testConstructor() throws Exception {
-		
 		try {
 			@SuppressWarnings("unused")
 			QIFParser parser = new QIFParser(null);
